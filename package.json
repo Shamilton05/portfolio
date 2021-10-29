@@ -1,7 +1,7 @@
 {
-  "name": "scrollcontrols-demo-website-horizontal-panes",
+  "name": "landscapes",
   "version": "1.0.0",
-  "description": "How to tie canvas objects to scrollTop while events keep working.",
+  "description": "Horizontal display of artwork",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

@@ -1,2 +1,2 @@
 # portfolio
-Created with CodeSandbox
+Displaying work in art and software engineering.

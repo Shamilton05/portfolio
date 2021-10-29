@@ -42,7 +42,7 @@ function Items({ w = 0.7, gap = 0.15 }) {
 }
 
 export const App = () => (
-  <Canvas gl={{ antialias: false }} dpr={[1, 1.5]} onPointerMissed={() => (state.clicked = null)}>
+  <Canvas gl={{ alpha: false, antialias: true, stencil: false, depth: false }} linear={true} flat={false} dpr={[1, 1.5]} onPointerMissed={() => (state.clicked = null)}>
     <Items />
   </Canvas>
 )
