@@ -6,7 +6,7 @@ import { App } from './App'
 function Overlay() {
   return (
     <div style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', width: '100%', height: '100%' }}>
-      <a href="https://squidgamegame.games" style={{ position: 'absolute', bottom: 40, left: 40, fontSize: '13px' }}>
+      <a style={{ position: 'absolute', bottom: 40, left: 40, fontSize: '13px' }}>
         software
         <br />
         digital art
