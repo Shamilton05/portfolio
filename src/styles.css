@@ -33,6 +33,7 @@ a {
   pointer-events: all;
   color: #a0a0a0;
   text-decoration: none;
+  z-index: 101;
 }
 
 svg {

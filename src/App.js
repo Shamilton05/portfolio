@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import { useRef, useState } from 'react'
+import { useRef, useState, Suspense } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import { Image, ScrollControls, Scroll, useScroll } from '@react-three/drei'
+import { Image, ScrollControls, Scroll, useScroll, Loader } from '@react-three/drei'
 import { useSnapshot } from 'valtio'
 import { Minimap } from './Minimap'
 import { state, damp } from './util'
@@ -42,7 +42,12 @@ function Items({ w = 0.7, gap = 0.15 }) {
 }
 
 export const App = () => (
+  <>
   <Canvas gl={{ alpha: false, antialias: true, stencil: false, depth: false }} linear={true} flat={false} dpr={[1, 1.5]} onPointerMissed={() => (state.clicked = null)}>
+    {/* <Suspense fallback={null}> */}
     <Items />
+    {/* </ Suspense> */}
   </Canvas>
+  {/* <Loader /> */}
+  </>
 )
