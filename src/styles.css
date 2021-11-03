@@ -39,3 +39,11 @@ a {
 svg {
   fill: #a0a0a0;
 }
+
+.fcc-btn {
+  background-color: #cfcfcf;
+  color: #151515;
+  padding: 0.7em;
+  text-decoration: none;
+  border-radius: 10% / 50%;
+}
