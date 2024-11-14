@@ -13,7 +13,7 @@ function Overlay() {
       <a href="https://www.linkedin.com/in/spencer-h/" target="_blank" style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>
         spencer hamilton
       </a>
-      <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>10/28/2021</div>
+      <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>2024</div>
     </div>
   )
 }
